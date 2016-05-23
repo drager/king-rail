@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && webpack",
-    "start": "webpack-dev-server --hot --inline --port 3000",
+    "start": "webpack-dev-server --hot --inline --port 5000",
     "test": "npm-run-all test:*",
     "test:build": "npm run build && webpack --config webpack.tests.config.js",
     "test:unit": "mocha -r babel-polyfill -r source-map-support/register  'dist/*.spec.js'",
